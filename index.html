@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
-    <link rel="stylesheet" href="/style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora Básica</title>
 </head>
+
 <body>
-    <div id="calculator">
-        <input type="text" id="display" disabled>
-        <br>
-        <button id="ac" class="operador">AC</button>
-        <button id="de" class="operador">DE</button>
-        <button id="." class="operador">.</button>
-        <button id="/" class="operador">/</button>
-        <br>
+    <div class="cuerpo">
+<div class="caja">
+    <div class="visor" id="visor"><input type="text" / disabled  id="display"></div>
+    <div class="botones">
+        <button id="ac" class="ac">AC</button>
+        <button id="de">DE</button>
+        <button id=".">.</button>
+        <button id="/">/</button>
+        <br />
         <button id="7">7</button>
         <button id="8">8</button>
         <button id="9">9</button>
-        <button id="*" class="operador">*</button>
+        <button id="*">*</button>
         <br>
         <button id="4">4</button>
         <button id="5">5</button>
         <button id="6">6</button>
-        <button id="-" class="operador">-</button>
+        <button id="-">-</button>
         <br>
         <button id="1">1</button>
         <button id="2">2</button>
         <button id="3">3</button>
-        <button id="+" class="operador">+</button>
+        <button id="+">+</button>
         <br>
-        <button id="00">00</button>
-        <button id="0">0</button>
-        <button id="=" class="equal operador">=</button>
+        <div class="ultimos">
+            <button id="0" class="cero">0</button>
+        <button id="=" class="igual">=</button>
+        </div>
+    </div>
 </div>
-
-   
+    </div>
     <script src="index.js"></script>
 </body>
+
 </html>
